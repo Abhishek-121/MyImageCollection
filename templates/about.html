@@ -4,28 +4,56 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        .card{
+        .card {
             border: 2px solid black;
             margin: 0 auto;
-            }
+            background-color: lightcoral;
+        }
+        .abhi{
+            text-align: center;
+            background-color: lightcoral;
+            padding: 5px;
+        }
+        .container{
+            {#background-color: lightgoldenrodyellow;#}
+            background-color: burlywood;
+            margin-top: -20px;
+            margin-left: -8px;
+            margin-right: -8px;
+        }
+
+        .card-title{
+            text-align: center;
+        }
+
+        .txt{
+            text-align: -webkit-center;
+        }
+
     </style>
 </head>
 <body>
 
     <div class="container">
-    <h1>Hello Welcome at About page !</h1>
-    <p>This website is made by Abhishek ...</p>
+    <h1 class="abhi">Hello Welcome at About page !</h1>
 
-    <h1>I love Programming  and my name is {{ name }}</h1>
-    <p>You can found me here {{ link }}></p>
+        <h2>Source code is available at - <a href="https://github.com/Abhishek-121/MyImageCollection" >https://github.com/Abhishek-121/MyImageCollection</a></h2>
 
-    <div class="card">
-  <img class="card-img-top img-fluid" src="https://i.ibb.co/LNNjxsC/Abhishek.jpg" style="width: 20rem; height: 20rem; alt="Abhishek Maheshwari">
-
-    <h3>I am Abhishek Maheshwari , final year Student pursuing Computer Science and Engineering
-        from MAIT.I am Web Developer,Cloud Enthusiatic and love to solve puzzles in my leisure time .
-        Also love to explore new technologies that are prevailing in the market.This Website is developed by me along with help of Internet .</h3>
+     <div class="card mb-3" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4 ">
+      <img class="card-img-top img-fluid" src="https://i.ibb.co/LNNjxsC/Abhishek.jpg" style="width: 100%; alt= "Abhishek Maheshwari" ">
     </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h2 class="card-title">Abhishek Maheshwari</h2>
+         <h3 class="txt">I am Abhishek Maheshwari , final year Student pursuing Computer Science and Engineering from MAIT.I am Web Developer,Cloud Enthusiatic and love to solve puzzles in my leisure time.Also love to explore new technologies that are prevailing in the market. I am good in Problem Solving skills.The purpose of this website for me is to implement my Django learning and for others explore the world with diffrent view.
+         </h3>
+      </div>
+    </div>
+  </div>
+</div>
+
     </div>
 
 </body>
