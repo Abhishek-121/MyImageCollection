@@ -1,4 +1,5 @@
 # MyImageCollection
+
 In this website you can find Images with best quality based on diffrent categories which is developed in Django with mysqlite as Database and HTML,CSS ,JS along Bootstrap Framework in Frontend gives an amazing learning as well as handling experience.  
 
 Some of the steps which are important during the project:
@@ -22,8 +23,6 @@ Some of the steps which are important during the project:
     python manage.py create superuser
     add name
     add email
-Eg : Username : Abhishek
-     Password : abhi1999
 
 6. To change the 'Category object' in django-admin to it's title add func. in models.py def__str__(self):
 			   return self.title
